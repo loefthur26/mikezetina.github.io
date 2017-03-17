@@ -1,0 +1,82 @@
+html{
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 10% 0;
+}
+
+.profile-box {
+	width: 400px;
+	height: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 2%;
+}
+
+.profile-picture{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+h5{
+	letter-spacing: 3;
+	font-size: 15px;
+}
+
+p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+.social-icons{
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+.social-icons a{
+	color: white;
+	margin: 5%;
+}
+
+.social-icons a:hover{
+	cursor:pointer; cursor: hand;
+}
+
+.line-break{
+	width: auto;
+	border-top: 1px solid white;
+}
+
+@media only screen and (max-width: 500px) {
+    /* For mobile phones: */
+    .profile-box {
+	width: auto;
+	height: 100%;
+	}
+
+	.profile-picture{
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	}
+
+	.social-icons a{
+	margin: 5px;
+	}
+}
